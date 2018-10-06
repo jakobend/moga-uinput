@@ -7,7 +7,7 @@ moga-uinput: $(OBJECTS)
 	$(CC) $(LDFLAGS) $< -o $@
 
 .PHONY: all
-all: moga-uinputt
+all: moga-uinput
 
 .PHONY: clean
 clean:
